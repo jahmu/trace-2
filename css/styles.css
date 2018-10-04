@@ -1,0 +1,130 @@
+* {
+ margin: 0;
+ padding: 0;
+
+}
+
+.background-wrap {
+  position: fixed;
+  z-index: -1000;
+  width:100%;
+  height: 100%;
+  overflow:hidden;
+  top: 0;
+  left: 0;
+}
+
+#video-bg-elem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: dashed;
+}
+
+.h1 {
+  text-decoration: dashed;
+}
+.social media {
+  font-weight: lighter;
+  font-size: 10px;
+  color: purple;
+  text-align: unset;
+  margin-bottom: 0;
+}
+
+.social {
+  position: absolute;
+  top:5%;
+  left: 50%;
+  transform: translate (-53% -50%);
+}
+
+li  {
+  list-style: none;
+  margin: 10px 5px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 5px;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+
+.slide {
+  position: absolute;
+  z-index: 1000;
+  background-color: rgba(0,0,0,0.3 );
+  color: red;
+}
+
+.slide-container { 
+    width: 1200px;
+    height: 500px;
+    margin: 9em;
+    padding-top: 0.5%;
+}
+.zip-container {
+    width: 950px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    transition: right 1s easy;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+/* .slide-container .zip-container #First slide {
+  border-right-width: 10%;
+} */
+.body {
+  background-image: url("https://www.teamunify.com/gutxsst/_images/cust_bg_3459_1344294654084.jpg");
+}
+h1 {
+  text-align: center;
+  border-radius: 2em;
+  color: orange;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-family: 'Times New Roman', Times, serif;
+}
+.gallery {
+  margin: 13%;
+  margin-right: 32%;
+  padding-top: 3em;
+  padding-left: 5em;
+  padding-bottom: 35px;
+  border: 2px solid white;
+  background-image: url("https://i.ytimg.com/vi/Q2-0w0YrsfA/maxresdefault.jpg");
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  position: fixed;
+  padding-left: 9em;
+  }
+
+.gallery img {
+  width: 85%;
+  height: 50%;
+  padding: 5px;
+  transition: 1s;
+}
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.gal a {
+  width: 85%;
+  height: 50%;
+}
